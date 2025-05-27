@@ -25,14 +25,23 @@ Check out the live site here:
 # Project Structure
 
 /YouTube-Clone
+
 ├── index.html            # Main HTML page
+
 ├── styles/               # CSS files
+
 │   ├── general.css
+
 │   ├── header.css
+
 │   ├── sidebar.css
+
 │   └── video.css
+
 ├── icons/                # SVG and image icons used in the UI
+
 ├── thumbnails/           # Video thumbnails and profile pictures
+
 └── README.md             # Project documentation
 
 
