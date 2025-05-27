@@ -1,0 +1,80 @@
+
+    .roboto-<uniquifier> {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    }
+
+    .tn{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .vidpreview{
+        padding: 6px;
+        transition: 0.5s; 
+    }
+
+    .vidpreview:hover{
+        background-color:rgb(244, 227, 221);
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .vid-time{
+        background-color: black;
+        color: white;
+        position: absolute;
+        bottom: 8px;
+        right:5px;
+        font-family: Roboto;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 4px;
+        border-radius: 2px;
+    }
+    .vidtitle{
+        margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+    .vidau,
+    .vidst{
+        font-size: 12px;
+        color:rgb(96,96,96)
+    }
+    .vidau{
+        margin-bottom: 6px;
+    }
+    .profpic{
+        width:36px;
+        border-radius:50px;
+    }
+
+    .videoinfo{
+        margin-left: 5px;
+    }
+
+    .tn-row{
+        margin-bottom: 8px;
+        position: relative;
+    }
+    .vid-grid{
+        display: grid;
+        grid-template-columns: 50px 1fr;
+    }
+    .video-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 16px;
+        row-gap: 40px;
+    }
+
+    @media (max-width: 750px){
+        .video-grid{
+            grid-template-columns: 1fr 1fr;
+        }
+    }
