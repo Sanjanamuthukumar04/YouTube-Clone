@@ -1,4 +1,4 @@
-# YouTube-Homepage-Clone
+#YouTube-Clone
 
 This project is a **responsive and interactive clone of the YouTube homepage** created purely with **HTML** and **CSS**. It aims to replicate the look and feel of YouTube’s main page, focusing on layout accuracy, interactivity, and responsive design.
 
